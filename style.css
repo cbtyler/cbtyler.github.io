@@ -1,78 +1,71 @@
-.container {  
-  max-width: 600px;
+.container {
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  font-family: 'Open Sans', sans-serif;
 }
-.newsletter {
-  color: grey;
-  border: solid thin #cfcfcf;
-  border-radius: 3px;
-  padding: 10px;  
-  padding-bottom: 20px;
-  position: relative;
+.header {
+  }
+img {
+  width: 1200px;
 }
-.newsletter h3 {
-  margin-top: 0;
-}
-.newsletter button {
-  background-color: #3cb878;
-  border: none;
-  color: white;
-  display: block;
-  width: 100%;
-  height: 30px;
-  margin-bottom: 10px;
-}
-.newsletter input#email {
-  display: block;
-  width: 100%;
-  height: 30px;
-  margin-bottom: 4px;
-  border: solid #cfcfcf 1px;
-  border-radius: 3px;
-  box-sizing: border-box;
-}
-.newsletter #terms {
-  position: relative;
-  top: 1px;  
-}
-.newsletter #closex {
+.title-1 {
   position: absolute;
-  top: 0px;
-  right: 4px;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 40px;
+  color: #222;
+  margin-top: -160px;
+  margin-left: 300px;  
 }
-#questionmark {
-  background-color: #3cb878;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  color: white;
+.title-2 {
+  position: absolute;
+  font-family: 'Abril Fatface', cursive;
   font-size: 70px;
-  text-align: center;
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
+  color: #222;
+  margin-top: -120px;
+  margin-left: 300px;  
 }
-#card-holder {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-item: flex-end;
-  align-content: flex-start;  
+.content {
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 50px 200px 0px 200px;
+  font-size: 19px;
+  color: #222;
+  line-height: 30px;  
 }
-.card {
-  background-color: #3cb878;
-  width: 180px;
-  text-align: center;
+ul {
+  list-style-type: square;
+}
+blockquote {
+  background-color: #444;
+  padding: 30px 20px 40px 20px;
   color: white;
-  padding: 20px 0px; 
-  box-shadow: 0px 0px 7px 2px grey;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 45px;
+  line-height: 70px;
 }
-.card h3 {
-  margin-bottom: 0px;
+blockquote::before {  
+  content: '”';
+  font-size: 100px;
 }
-/* .card.middle {
-  padding: 20px;
-}*/
+p {
+  font-size: 16px;
+  line-height: 20px;
+}
+h4 {
+  margin-top: 0px;  
+  font-family: 'Merriweather', serif;
+  font-size: 14px;
+  line-height: 0px;
+}
+h3 {
+  margin-bottom: 4px;
+}
+.list-1 {
+  font-size: 15px;
+}
+hr {
+  border: 2px solid black;
+  margin: 40px 0px 40px 0px;
+}
+/*font-family: 'Abril Fatface', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Merriweather', serif;*/
